@@ -1,0 +1,283 @@
+{"cards": [
+  {
+    "card_id": 1, 
+    "title": "EL TWITTER", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+40.jpeg"
+  }, 
+  {
+    "card_id": 2, 
+    "title": "LA THIGH GAP", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+42.jpeg"
+  }, 
+  {
+    "card_id": 3, 
+    "title": "EL MAKEUP TUTORIAL", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+44.jpeg"
+  }, 
+  {
+    "card_id": 4, 
+    "title": "EL FIDGET SPINNER", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+47.jpeg"
+  }, 
+  {
+    "card_id": 5, 
+    "title": "EL TATTOO", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+41.jpeg"
+  }, 
+  {
+    "card_id": 6, 
+    "title": "EL MASON JAR", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+43.jpeg"
+  }, 
+  {
+    "card_id": 7, 
+    "title": "EL LATTE ART", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+45.jpeg"
+  }, 
+  {
+    "card_id": 8, 
+    "title": "EL PARTICIPATION TROPHY", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+46.jpeg"
+  }, 
+  {
+    "card_id": 9, 
+    "title": "EL VR", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+48.jpeg"
+  }, 
+  {
+    "card_id": 10, 
+    "title": "EL GLOBAL WARMING", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+50.jpeg"
+  }, 
+  {
+    "card_id": 11, 
+    "title": "LA SUCCULENT", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+52.jpeg"
+  }, 
+  {
+    "card_id": 12, 
+    "title": "LAS BITCOINS", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+54.jpeg"
+  }, 
+  {
+    "card_id": 13, 
+    "title": "LA CRAFT BREW", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+49.jpeg"
+  }, 
+  {
+    "card_id": 14, 
+    "title": "EL DJ", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+51.jpeg"
+  }, 
+  {
+    "card_id": 15, 
+    "title": "LA BORDER WALL", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+53.jpeg"
+  }, 
+  {
+    "card_id": 16, 
+    "title": "EL VEGAN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+32.jpeg"
+  }, 
+  {
+    "card_id": 17, 
+    "title": "EL MANSCAPING", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+34.jpeg"
+  }, 
+  {
+    "card_id": 18, 
+    "title": "EL MAN BUN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+36.jpeg"
+  }, 
+  {
+    "card_id": 19, 
+    "title": "EL INTERNSHIP", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+38.jpeg"
+  }, 
+  {
+    "card_id": 20, 
+    "title": "EL ACAI BOWL", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+33.jpeg"
+  }, 
+  {
+    "card_id": 21, 
+    "title": "LA DICK PIC", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+35.jpeg"
+  }, 
+  {
+    "card_id": 22, 
+    "title": "EL SUSHI", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+37.jpeg"
+  }, 
+  {
+    "card_id": 23, 
+    "title": "LA BOMBER JACKET", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+39.jpeg"
+  }, 
+  {
+    "card_id": 24, 
+    "title": "EL WEB DESIGN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+55.jpeg"
+  }, 
+  {
+    "card_id": 25, 
+    "title": "EL PIERCING", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+31.jpeg"
+  }, 
+  {
+    "card_id": 26, 
+    "title": "EL YOGA", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+29.jpeg"
+  }, 
+  {
+    "card_id": 27, 
+    "title": "EL PRIME", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+27.jpeg"
+  }, 
+  {
+    "card_id": 28, 
+    "title": "EL NAIL ART", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+25.jpeg"
+  }, 
+  {
+    "card_id": 29, 
+    "title": "EL TINDER", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+30.jpeg"
+  }, 
+  {
+    "card_id": 30, 
+    "title": "EL BRUNCH", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+28.jpeg"
+  }, 
+  {
+    "card_id": 31, 
+    "title": "EL/LA GENDERFLUID", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+26.jpeg"
+  }, 
+  {
+    "card_id": 32, 
+    "title": "EL FLOATY", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+24.jpeg"
+  }, 
+  {
+    "card_id": 33, 
+    "title": "EL GLUTEN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+23.jpeg"
+  }, 
+  {
+    "card_id": 34, 
+    "title": "EL GENTRIFICATION", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+21.jpeg"
+  }, 
+  {
+    "card_id": 35, 
+    "title": "LA FEMINIST", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+8.jpeg"
+  }, 
+  {
+    "card_id": 36, 
+    "title": "LA FLOWER CROWN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+16.jpeg"
+  }, 
+  {
+    "card_id": 37, 
+    "title": "LA NOTIFICATION", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+18.jpeg"
+  }, 
+  {
+    "card_id": 38, 
+    "title": "LA STUDENT DEBT", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+20.jpeg"
+  }, 
+  {
+    "card_id": 39, 
+    "title": "EL CATFISHING", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+22.jpeg"
+  }, 
+  {
+    "card_id": 40, 
+    "title": "EL TROLL", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+17.jpeg"
+  }, 
+  {
+    "card_id": 41, 
+    "title": "EL F*CKBOY", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+18.jpeg"
+  }, 
+  {
+    "card_id": 42, 
+    "title": "EL GENDER REVEAL", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+14.jpeg"
+  }, 
+  {
+    "card_id": 43, 
+    "title": "EL BIRD", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+12.jpeg"
+  }, 
+  {
+    "card_id": 44, 
+    "title": "EL VAPE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+11.jpeg"
+  }, 
+  {
+    "card_id": 45, 
+    "title": "EL JUICE CLEANSE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+9.jpeg"
+  }, 
+  {
+    "card_id": 46, 
+    "title": "LA HASHTAG", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+15.jpeg"
+  }, 
+  {
+    "card_id": 47, 
+    "title": "EL FOOD PORN", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+12.jpeg"
+  }, 
+  {
+    "card_id": 48, 
+    "title": "EL NON-GMO", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+10.jpeg"
+  }, 
+  {
+    "card_id": 49, 
+    "title": "LA ALEXA", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+6.jpeg"
+  }, 
+  {
+    "card_id": 50, 
+    "title": "LA SELFIE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+4.jpeg"
+  }, 
+  {
+    "card_id": 51, 
+    "title": "EL SAFE SPACE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+2.jpeg"
+  }, 
+  {
+    "card_id": 52, 
+    "title": "EL COACHELLA", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+1.jpeg"
+  }, 
+  {
+    "card_id": 53, 
+    "title": "EL HISPTER", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+7.jpeg"
+  }, 
+  {
+    "card_id": 54, 
+    "title": "EL PRIDE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+5.jpeg"
+  }, 
+  {
+    "card_id": 55, 
+    "title": "EL BAD OMBRE", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan+3.jpeg"
+  }, 
+  {
+    "card_id": 56, 
+    "title": "EL UBER", 
+    "url": "https://loteria-capstone-denisse.s3.us-west-2.amazonaws.com/Scan.jpeg"
+  }
+]
+}
