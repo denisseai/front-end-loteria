@@ -40,6 +40,7 @@ const Deck = (props) => {
         <>
             <Card onCardClick={() => setCurrentCardIndex(currentCardIndex + 1)} {...currentCard}/>
             <button className="shuffle" onClick={() => shuffle()}>Shuffle them Deck</button>
+            <h3>Cards left: {deck.length - currentCardIndex}</h3>
         </>
     );
 };
