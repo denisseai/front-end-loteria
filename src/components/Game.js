@@ -7,6 +7,7 @@ const axios = require('axios');
 const Game = (props) => {
     let [addNewPlayer, setAddNewPlayer] = useState(false);
     const [playerList, setPlayerList] = useState([]);
+    const [winnerList, setWinnerList] = useState([]);
     const [selectedPlayerId, setSelectedPlayerId] = useState(0);
 
     const onPlayerSelect = (event) => {
@@ -31,6 +32,14 @@ const Game = (props) => {
             setSelectedPlayerId(response.data[0]?.player_id)
         })
     }
+    const getWinnerList = () => {
+        getPlayerList();
+        let temp = [].concat(playerList)
+        .sort((a,b) => a.win_count > b.win_count? -1 : 1)
+        
+        setWinnerList(temp)
+    }
+
     const onSubmitAddPlayer = (name) => {
         axios.post(`${process.env.REACT_APP_BACKEND_URL}/players`, name)
         .then(response => {
@@ -55,6 +64,13 @@ const Game = (props) => {
              className="addNewPlayer">Add New Player</button>
             {addNewPlayer && <NewPlayerForm onSubmitForm={onSubmitAddPlayer}/>}
             <button onClick={onDeleteAllPlayers}>Delete All Players</button>
+            <button onClick={getWinnerList}>Scores</button>
+            <div>
+                <ol>
+                    {winnerList.map((item) =>
+                    <li key={item.player_id}> {item.name} - wins: {item.win_count}</li>)}
+                </ol>
+            </div>
 
             {playerList.length > 0 &&(
                 <>
