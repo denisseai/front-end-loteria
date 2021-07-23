@@ -36,14 +36,16 @@ const Game = (props) => {
         getPlayerList();
         let temp = [].concat(playerList)
         .sort((a,b) => a.win_count > b.win_count? -1 : 1)
-        
         setWinnerList(temp)
+
+        setTimeout(() => setWinnerList(), 5000)
     }
 
     const onSubmitAddPlayer = (name) => {
         axios.post(`${process.env.REACT_APP_BACKEND_URL}/players`, name)
         .then(response => {
             getPlayerList();
+            setAddNewPlayer(false);
         })
         .catch( error => console.log(error))
         .finally("finished axios post attempt")
@@ -67,7 +69,7 @@ const Game = (props) => {
             <button onClick={getWinnerList}>Scores</button>
             <div>
                 <ol>
-                    {winnerList.map((item) =>
+                    {winnerList && winnerList.map((item) =>
                     <li key={item.player_id}> {item.name} - wins: {item.win_count}</li>)}
                 </ol>
             </div>
