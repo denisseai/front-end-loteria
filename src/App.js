@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Loteria</h1>
       </header>
-      <main>
+      <main id="Main-content">
         <Game/>
       </main>
     </div>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 const NewPlayerForm = (props) => {
 
     const [formFields, setFormFields] = useState({

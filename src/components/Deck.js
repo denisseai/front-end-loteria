@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Card from './Card';
+import './Deck.css';
 
 const axios = require('axios');
 
@@ -37,11 +38,13 @@ const Deck = (props) => {
     if (deck.length === 0){return null;}
 
     return (
-        <>
-            <Card onCardClick={() => setCurrentCardIndex(currentCardIndex + 1)} {...currentCard}/>
-            <button className="shuffle" onClick={() => shuffle()}>Shuffle them Deck</button>
-            <h3>Cards left: {deck.length - currentCardIndex}</h3>
-        </>
+        <section id="all">
+            <h3 id="cards-left">Cards left: {deck.length - currentCardIndex}</h3>
+            <section id="deck">
+                <Card onCardClick={() => setCurrentCardIndex(currentCardIndex + 1)} {...currentCard}/>
+            </section>
+            <button className="shuffle-btn" onClick={() => shuffle()}>Shuffle Deck</button>
+        </section>
     );
 };
 

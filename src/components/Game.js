@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Deck from './Deck';
 import NewPlayerForm from './NewPlayerForm';
+import './Game.css';
 
 const axios = require('axios');
 
