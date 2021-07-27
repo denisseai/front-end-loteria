@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #cards-left{
@@ -23,9 +24,8 @@
     position: relative;
     z-index: 0;
     padding: 15px;
-    font-family: monospace;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     font-size: 25px;
 }
 

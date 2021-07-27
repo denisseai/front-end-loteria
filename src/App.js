@@ -5,11 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Loteria</h1>
+        <h1>Millennial Lotería</h1>
       </header>
       <main id="Main-content">
         <Game/>
       </main>
+      <footer> Capstone Project C15 Accelerate - Denisse Anaya</footer>
     </div>
   );
 }

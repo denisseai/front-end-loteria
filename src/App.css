@@ -1,3 +1,6 @@
+*{
+    font-family: monospace;
+}
 .App-header{
     font-size: xx-large;
     text-align: center;
@@ -5,5 +8,11 @@
 }
 .App{
     background-color: rgb(214, 225, 247);
-    font-family: monospace;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
 }

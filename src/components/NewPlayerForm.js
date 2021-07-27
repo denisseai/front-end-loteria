@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import'./NewPlayerForm.css';
 
 
 const NewPlayerForm = (props) => {
@@ -26,12 +27,14 @@ const NewPlayerForm = (props) => {
 
     return (
         <form onSubmit={onFormSubmit} >
-            <label htmlFor="fullName">Name:</label>
+            <label htmlFor="fullName"></label>
             <input
                 name="fullName"
+                placeholder="Name"
                 value={formFields.name}
                 onChange={onNameChange} />
             <input
+            className="this-button"
             type="submit"
             value="Submit" />
         </form>

@@ -63,33 +63,42 @@ const Game = (props) => {
 
     return (
         <>
-            <button onClick={() => setAddNewPlayer(true)} 
-             className="addNewPlayer">Add New Player</button>
-            {addNewPlayer && <NewPlayerForm onSubmitForm={onSubmitAddPlayer}/>}
-            <button onClick={onDeleteAllPlayers}>Delete All Players</button>
-            <button onClick={getWinnerList}>Scores</button>
-            <div>
-                <ol>
-                    {winnerList && winnerList.map((item) =>
-                    <li key={item.player_id}> {item.name} - wins: {item.win_count}</li>)}
-                </ol>
+            <div id="all">
+                <section>
+                    <Deck/>
+                    <div className="buttons">
+                        <button onClick={() => setAddNewPlayer(true)} 
+                        className="btn add-player">New Player</button>
+                        {addNewPlayer && <NewPlayerForm onSubmitForm={onSubmitAddPlayer}/>}
+                        <button className="btn delete-btn" onClick={onDeleteAllPlayers}>Delete Players</button>
+                        <button className="btn scores-btn" onClick={getWinnerList}>All Scores</button>
+                    </div>
+                    <section id="winner-section">
+                    <ol>
+                        {winnerList && winnerList.map((item) =>
+                        <li key={item.player_id}> {item.name} - wins: {item.win_count}</li>)}
+                    </ol>
+                
+                    {playerList.length > 0 &&(
+                        <>
+                            <label>Pick Winner</label>
+                            <select className="name-list" 
+                                onChange={onPlayerSelect} 
+                                value={selectedPlayerId}
+                            >
+                                {playerList.map(player =>
+                                    <option key={player.player_id} 
+                                        value={player.player_id}>{player.name}
+                                    </option>
+                                )}
+                            </select>
+                            <button id="btn-win" onClick={onWinSubmit}>Submit</button>
+                        </>
+                    )}
+                </section>
+                    
+                </section>
             </div>
-
-            {playerList.length > 0 &&(
-                <>
-                    <label>Pick Winner</label>
-                    <select className="name-list" onChange={onPlayerSelect} value={selectedPlayerId}>
-                        {playerList.map(player =>
-                            <option key={player.player_id} 
-                                value={player.player_id}>{player.name}
-                            </option>
-                        )}
-                    </select>
-                    <button onClick={onWinSubmit}>Submit</button>
-                </>
-            )}
-
-            <Deck/>
         </>
     );
 };
