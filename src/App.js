@@ -10,7 +10,6 @@ function App() {
       <main id="Main-content">
         <Game/>
       </main>
-      <footer> Capstone Project C15 Accelerate - Denisse Anaya</footer>
     </div>
   );
 }
